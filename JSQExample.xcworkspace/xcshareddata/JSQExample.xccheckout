@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEA2C9C8-1551-4F79-9F62-2183775B5630</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSQExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F380143B0F46A1A55729BD735893BEFACBE9E826</key>
+		<string>github.com:lengocgiang/JSQExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSQExample.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F380143B0F46A1A55729BD735893BEFACBE9E826</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lengocgiang/JSQExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F380143B0F46A1A55729BD735893BEFACBE9E826</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F380143B0F46A1A55729BD735893BEFACBE9E826</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSQExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
