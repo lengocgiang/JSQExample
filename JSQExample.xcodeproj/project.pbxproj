@@ -15,6 +15,7 @@
 		51B40A0F1B41318D00E8076E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B40A0D1B41318D00E8076E /* LaunchScreen.xib */; };
 		51B40A1B1B41318D00E8076E /* JSQExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B40A1A1B41318D00E8076E /* JSQExampleTests.m */; };
 		51B40A261B4155B700E8076E /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B40A251B4155B700E8076E /* DataModel.m */; };
+		51B40A291B4239B400E8076E /* NSUserDefaults+DemoSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B40A281B4239B400E8076E /* NSUserDefaults+DemoSettings.m */; };
 		A72675E7DC7BFC7632D1F344 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D99ECC7FD9E1E96E1D065D80 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		51B40A1A1B41318D00E8076E /* JSQExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSQExampleTests.m; sourceTree = "<group>"; };
 		51B40A241B4155B700E8076E /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		51B40A251B4155B700E8076E /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		51B40A271B4239B400E8076E /* NSUserDefaults+DemoSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+DemoSettings.h"; sourceTree = "<group>"; };
+		51B40A281B4239B400E8076E /* NSUserDefaults+DemoSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+DemoSettings.m"; sourceTree = "<group>"; };
 		64E1120CD3A05C20D2116BDA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7E01BEF2E8D7EE29A133CE69 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D99ECC7FD9E1E96E1D065D80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +104,8 @@
 				51B409FE1B41318D00E8076E /* Supporting Files */,
 				51B40A241B4155B700E8076E /* DataModel.h */,
 				51B40A251B4155B700E8076E /* DataModel.m */,
+				51B40A271B4239B400E8076E /* NSUserDefaults+DemoSettings.h */,
+				51B40A281B4239B400E8076E /* NSUserDefaults+DemoSettings.m */,
 			);
 			path = JSQExample;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B40A291B4239B400E8076E /* NSUserDefaults+DemoSettings.m in Sources */,
 				51B40A071B41318D00E8076E /* ChatViewController.m in Sources */,
 				51B40A261B4155B700E8076E /* DataModel.m in Sources */,
 				51B40A041B41318D00E8076E /* AppDelegate.m in Sources */,
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSQExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSQExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

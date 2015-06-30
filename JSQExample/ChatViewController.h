@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <JSQMessages.h>
+#import "DataModel.h"
+#import "NSUserDefaults+DemoSettings.h"
 
 @class ChatViewController;
 
@@ -19,7 +21,7 @@
 
 @property (weak, nonatomic) id <ViewControllerDelegate>delegate;
 
-@property (strong, nonatomic) 
+@property (strong, nonatomic) DataModel *demoData;
 
 - (void)receiveMessagePressed:(UIBarButtonItem *)sender;
 
