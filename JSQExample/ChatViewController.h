@@ -18,6 +18,9 @@
 @end
 
 @interface ChatViewController : JSQMessagesViewController
+<
+    UIActionSheetDelegate
+>
 
 @property (weak, nonatomic) id <ViewControllerDelegate>delegate;
 
